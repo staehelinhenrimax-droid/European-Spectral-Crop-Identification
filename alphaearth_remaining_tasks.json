@@ -1,0 +1,1182 @@
+{
+  "year": 2023,
+  "drive_folder": "SDS320_AlphaEarth_2023",
+  "tasks": [
+    {
+      "area_id": 10,
+      "output_filename": "germany_2023_area_10.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_10.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        450560.0,
+        0.0,
+        -10.0,
+        5708800.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        450560.0,
+        5703680.0,
+        455680.0,
+        5708800.0
+      ],
+      "task_id": "YA6XFIH5D73XIGCIEPSU6GKR",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 11,
+      "output_filename": "germany_2023_area_11.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_11.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        307200.0,
+        0.0,
+        -10.0,
+        5734400.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        307200.0,
+        5729280.0,
+        312320.0,
+        5734400.0
+      ],
+      "task_id": "2F4DQITOX7U3FKQQTOQP7NMH",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 12,
+      "output_filename": "germany_2023_area_12.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_12.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        486400.0,
+        0.0,
+        -10.0,
+        5800960.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        486400.0,
+        5795840.0,
+        491520.0,
+        5800960.0
+      ],
+      "task_id": "FN2NYWCM2HAKGI6IPJABCPMP",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 13,
+      "output_filename": "germany_2023_area_13.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_13.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        286720.0,
+        0.0,
+        -10.0,
+        5657600.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        286720.0,
+        5652480.0,
+        291840.0,
+        5657600.0
+      ],
+      "task_id": "7QW3OH3SQ2OKPZG6XZBWGA6I",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 14,
+      "output_filename": "germany_2023_area_14.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_14.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        317440.0,
+        0.0,
+        -10.0,
+        5703680.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        317440.0,
+        5698560.0,
+        322560.0,
+        5703680.0
+      ],
+      "task_id": "JPLT3XK7J676UHA6OCWMG66S",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 15,
+      "output_filename": "germany_2023_area_15.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_15.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        353280.0,
+        0.0,
+        -10.0,
+        5724160.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        353280.0,
+        5719040.0,
+        358400.0,
+        5724160.0
+      ],
+      "task_id": "PU3AGBNEO43IW3HF52GVGZ5T",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 16,
+      "output_filename": "germany_2023_area_16.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_16.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        465920.0,
+        0.0,
+        -10.0,
+        5800960.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        465920.0,
+        5795840.0,
+        471040.0,
+        5800960.0
+      ],
+      "task_id": "AWDP33EE77GUTMFWG6Z2KEOZ",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 17,
+      "output_filename": "germany_2023_area_17.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_17.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        430080.0,
+        0.0,
+        -10.0,
+        5713920.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        430080.0,
+        5708800.0,
+        435200.0,
+        5713920.0
+      ],
+      "task_id": "ENWXNVVK7YOGDOJ773L6UUZD",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 18,
+      "output_filename": "germany_2023_area_18.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_18.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        337920.0,
+        0.0,
+        -10.0,
+        5693440.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        337920.0,
+        5688320.0,
+        343040.0,
+        5693440.0
+      ],
+      "task_id": "OFWJBXZTIUPDYP5HU4FTY2BD",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 19,
+      "output_filename": "germany_2023_area_19.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_19.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        465920.0,
+        0.0,
+        -10.0,
+        5780480.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        465920.0,
+        5775360.0,
+        471040.0,
+        5780480.0
+      ],
+      "task_id": "XYD463RRYBPAPZRTKDYAVGQ3",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 2,
+      "output_filename": "germany_2023_area_2.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_2.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        363520.0,
+        0.0,
+        -10.0,
+        5611520.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        363520.0,
+        5606400.0,
+        368640.0,
+        5611520.0
+      ],
+      "task_id": "KZG2H3LCSD6FUADGWR2YAUAJ",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 20,
+      "output_filename": "germany_2023_area_20.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_20.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        358400.0,
+        0.0,
+        -10.0,
+        5744640.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        358400.0,
+        5739520.0,
+        363520.0,
+        5744640.0
+      ],
+      "task_id": "6MXQQ5JXTCU4D5WNC2YXMLDG",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 21,
+      "output_filename": "germany_2023_area_21.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_21.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        501760.0,
+        0.0,
+        -10.0,
+        5806080.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        501760.0,
+        5800960.0,
+        506880.0,
+        5806080.0
+      ],
+      "task_id": "KOUZPQ2WOK6D3CG662HIF2WE",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 22,
+      "output_filename": "germany_2023_area_22.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_22.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        337920.0,
+        0.0,
+        -10.0,
+        5621760.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        337920.0,
+        5616640.0,
+        343040.0,
+        5621760.0
+      ],
+      "task_id": "7AJ6PZA7VBYI4YGUSKVNI3FD",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 23,
+      "output_filename": "germany_2023_area_23.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_23.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        409600.0,
+        0.0,
+        -10.0,
+        5785600.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        409600.0,
+        5780480.0,
+        414720.0,
+        5785600.0
+      ],
+      "task_id": "SXUTIHMYZL4JFGKKMIL5C54P",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 24,
+      "output_filename": "germany_2023_area_24.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_24.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        322560.0,
+        0.0,
+        -10.0,
+        5652480.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        322560.0,
+        5647360.0,
+        327680.0,
+        5652480.0
+      ],
+      "task_id": "S6ONH6SD5AU4PYVP4EVS4BKU",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 25,
+      "output_filename": "germany_2023_area_25.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_25.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        465920.0,
+        0.0,
+        -10.0,
+        5729280.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        465920.0,
+        5724160.0,
+        471040.0,
+        5729280.0
+      ],
+      "task_id": "5GNXP22F5O6O6G6FKEFAOO5W",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 26,
+      "output_filename": "germany_2023_area_26.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_26.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        317440.0,
+        0.0,
+        -10.0,
+        5637120.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        317440.0,
+        5632000.0,
+        322560.0,
+        5637120.0
+      ],
+      "task_id": "7EKSPPFHZ5O466KHIELMTKHE",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 27,
+      "output_filename": "germany_2023_area_27.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_27.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        368640.0,
+        0.0,
+        -10.0,
+        5688320.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        368640.0,
+        5683200.0,
+        373760.0,
+        5688320.0
+      ],
+      "task_id": "LF5AN6RJCYXRY3IQZSL4XSBZ",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 28,
+      "output_filename": "germany_2023_area_28.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_28.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        404480.0,
+        0.0,
+        -10.0,
+        5770240.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        404480.0,
+        5765120.0,
+        409600.0,
+        5770240.0
+      ],
+      "task_id": "HGW6IWZCQURZKDDF5F3G575S",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 29,
+      "output_filename": "germany_2023_area_29.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_29.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        414720.0,
+        0.0,
+        -10.0,
+        5708800.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        414720.0,
+        5703680.0,
+        419840.0,
+        5708800.0
+      ],
+      "task_id": "ZLC6R23ZXY4QCAUPERX6VLJZ",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 3,
+      "output_filename": "germany_2023_area_3.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_3.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        302080.0,
+        0.0,
+        -10.0,
+        5688320.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        302080.0,
+        5683200.0,
+        307200.0,
+        5688320.0
+      ],
+      "task_id": "O2OW24OP4GLGG7RPCCGMXS6V",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 30,
+      "output_filename": "germany_2023_area_30.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_30.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        476160.0,
+        0.0,
+        -10.0,
+        5672960.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        476160.0,
+        5667840.0,
+        481280.0,
+        5672960.0
+      ],
+      "task_id": "IOGQP5UMQZ55ZC3TSQXIGP5X",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 31,
+      "output_filename": "germany_2023_area_31.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_31.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        517120.0,
+        0.0,
+        -10.0,
+        5713920.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        517120.0,
+        5708800.0,
+        522240.0,
+        5713920.0
+      ],
+      "task_id": "BIUDYOZ2UNRFEKVNLCWOTSAO",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 32,
+      "output_filename": "germany_2023_area_32.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_32.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        337920.0,
+        0.0,
+        -10.0,
+        5739520.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        337920.0,
+        5734400.0,
+        343040.0,
+        5739520.0
+      ],
+      "task_id": "ALGOWPLQTDOBVI6NRIEQ52NV",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 33,
+      "output_filename": "germany_2023_area_33.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_33.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        435200.0,
+        0.0,
+        -10.0,
+        5770240.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        435200.0,
+        5765120.0,
+        440320.0,
+        5770240.0
+      ],
+      "task_id": "6NGLCKL35ZC2DXYRLDCJCBGE",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 34,
+      "output_filename": "germany_2023_area_34.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_34.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        465920.0,
+        0.0,
+        -10.0,
+        5816320.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        465920.0,
+        5811200.0,
+        471040.0,
+        5816320.0
+      ],
+      "task_id": "V4UV3TZGYDOIHM4KYHSWKISH",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 35,
+      "output_filename": "germany_2023_area_35.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_35.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        491520.0,
+        0.0,
+        -10.0,
+        5785600.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        491520.0,
+        5780480.0,
+        496640.0,
+        5785600.0
+      ],
+      "task_id": "BZDTHSSFQNJ6UEOI5Y2BOGU6",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 36,
+      "output_filename": "germany_2023_area_36.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_36.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        491520.0,
+        0.0,
+        -10.0,
+        5765120.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        491520.0,
+        5760000.0,
+        496640.0,
+        5765120.0
+      ],
+      "task_id": "7CYTQPTJ7YFGWLP2CEJM2YPV",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 37,
+      "output_filename": "germany_2023_area_37.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_37.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        296960.0,
+        0.0,
+        -10.0,
+        5637120.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        296960.0,
+        5632000.0,
+        302080.0,
+        5637120.0
+      ],
+      "task_id": "DVNWV6U2YW3NZ2BVWB742VFG",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 38,
+      "output_filename": "germany_2023_area_38.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_38.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        440320.0,
+        0.0,
+        -10.0,
+        5754880.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        440320.0,
+        5749760.0,
+        445440.0,
+        5754880.0
+      ],
+      "task_id": "BDK4EDJYJVCXOQAQY7DLERUN",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 39,
+      "output_filename": "germany_2023_area_39.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_39.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        332800.0,
+        0.0,
+        -10.0,
+        5637120.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        332800.0,
+        5632000.0,
+        337920.0,
+        5637120.0
+      ],
+      "task_id": "HMJKJMIQCIG2M53PBNLN24RT",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 4,
+      "output_filename": "germany_2023_area_4.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_4.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        327680.0,
+        0.0,
+        -10.0,
+        5672960.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        327680.0,
+        5667840.0,
+        332800.0,
+        5672960.0
+      ],
+      "task_id": "IKVSFXQ2ERBOKP4UCKQNWMO2",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 40,
+      "output_filename": "germany_2023_area_40.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_40.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        363520.0,
+        0.0,
+        -10.0,
+        5662720.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        363520.0,
+        5657600.0,
+        368640.0,
+        5662720.0
+      ],
+      "task_id": "MWQIW5VH6RAJZ22ROJ5NTW3A",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 41,
+      "output_filename": "germany_2023_area_41.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_41.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        353280.0,
+        0.0,
+        -10.0,
+        5698560.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        353280.0,
+        5693440.0,
+        358400.0,
+        5698560.0
+      ],
+      "task_id": "DG73OZ5IEIA6WI5SG7NP4QGN",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 42,
+      "output_filename": "germany_2023_area_42.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_42.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        368640.0,
+        0.0,
+        -10.0,
+        5724160.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        368640.0,
+        5719040.0,
+        373760.0,
+        5724160.0
+      ],
+      "task_id": "X2AN77QKQ7V6JR3SAWFMPRRA",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 43,
+      "output_filename": "germany_2023_area_43.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_43.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        389120.0,
+        0.0,
+        -10.0,
+        5790720.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        389120.0,
+        5785600.0,
+        394240.0,
+        5790720.0
+      ],
+      "task_id": "OMJIY45RX62KSEIO2LRMWI6N",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 44,
+      "output_filename": "germany_2023_area_44.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_44.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        389120.0,
+        0.0,
+        -10.0,
+        5724160.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        389120.0,
+        5719040.0,
+        394240.0,
+        5724160.0
+      ],
+      "task_id": "YZSFJD736BTDQGGZNIA4A43Y",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 45,
+      "output_filename": "germany_2023_area_45.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_45.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        317440.0,
+        0.0,
+        -10.0,
+        5688320.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        317440.0,
+        5683200.0,
+        322560.0,
+        5688320.0
+      ],
+      "task_id": "775A6HWFEQWLOVFRUMTDGUUW",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 46,
+      "output_filename": "germany_2023_area_46.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_46.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        486400.0,
+        0.0,
+        -10.0,
+        5734400.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        486400.0,
+        5729280.0,
+        491520.0,
+        5734400.0
+      ],
+      "task_id": "D4ENILBYLPYQFTL6FETKVQ2L",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 47,
+      "output_filename": "germany_2023_area_47.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_47.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        373760.0,
+        0.0,
+        -10.0,
+        5626880.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        373760.0,
+        5621760.0,
+        378880.0,
+        5626880.0
+      ],
+      "task_id": "IE7GM23MBU7VLCMFZDSEIM37",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 48,
+      "output_filename": "germany_2023_area_48.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_48.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        506880.0,
+        0.0,
+        -10.0,
+        5739520.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        506880.0,
+        5734400.0,
+        512000.0,
+        5739520.0
+      ],
+      "task_id": "BG2JU547QQIPCZ7OWA7T56Z2",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 49,
+      "output_filename": "germany_2023_area_49.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_49.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        368640.0,
+        0.0,
+        -10.0,
+        5760000.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        368640.0,
+        5754880.0,
+        373760.0,
+        5760000.0
+      ],
+      "task_id": "HQRHHHHP4VHK3THSNDOFHHRP",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 5,
+      "output_filename": "germany_2023_area_5.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_5.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        491520.0,
+        0.0,
+        -10.0,
+        5719040.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        491520.0,
+        5713920.0,
+        496640.0,
+        5719040.0
+      ],
+      "task_id": "HCRAMQR35ZBM7XCD6RRAX3L2",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 50,
+      "output_filename": "germany_2023_area_50.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_50.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        348160.0,
+        0.0,
+        -10.0,
+        5642240.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        348160.0,
+        5637120.0,
+        353280.0,
+        5642240.0
+      ],
+      "task_id": "6V2BJT3FIVEAS7W644EVXZXU",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 6,
+      "output_filename": "germany_2023_area_6.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_6.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        322560.0,
+        0.0,
+        -10.0,
+        5621760.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        322560.0,
+        5616640.0,
+        327680.0,
+        5621760.0
+      ],
+      "task_id": "2XXLJDW2NCEDQLMY4FLVEZAX",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 7,
+      "output_filename": "germany_2023_area_7.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_7.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        307200.0,
+        0.0,
+        -10.0,
+        5657600.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        307200.0,
+        5652480.0,
+        312320.0,
+        5657600.0
+      ],
+      "task_id": "BG4YVJRYFHCOXOTF2PINWZ5E",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 8,
+      "output_filename": "germany_2023_area_8.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_8.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        455680.0,
+        0.0,
+        -10.0,
+        5760000.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        455680.0,
+        5754880.0,
+        460800.0,
+        5760000.0
+      ],
+      "task_id": "RNTU6GLTQHKLL5Z3TTQT3MQE",
+      "task_state_at_submission": "READY"
+    },
+    {
+      "area_id": 9,
+      "output_filename": "germany_2023_area_9.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/alphaearth_remaining_references/germany_2023_area_9.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        337920.0,
+        0.0,
+        -10.0,
+        5657600.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        337920.0,
+        5652480.0,
+        343040.0,
+        5657600.0
+      ],
+      "task_id": "OCNHMA7WISRRO7RKCOZYSBOG",
+      "task_state_at_submission": "READY"
+    }
+  ]
+}

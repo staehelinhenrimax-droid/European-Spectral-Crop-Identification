@@ -1,0 +1,30 @@
+{
+  "year": 2023,
+  "drive_folder": "SDS320_AlphaEarth_2023",
+  "tasks": [
+    {
+      "area_id": 1,
+      "output_filename": "germany_2023_area_1.tif",
+      "reference_path": "/Users/henristaehelin/Desktop/UZH/SDS320/project/data/processed/sentinel2_monthly_interpolated/images/germany_2023_area_1.tif",
+      "crs": "EPSG:32632",
+      "transform": [
+        10.0,
+        0.0,
+        353280.0,
+        0.0,
+        -10.0,
+        5626880.0
+      ],
+      "width": 512,
+      "height": 512,
+      "bounds": [
+        353280.0,
+        5621760.0,
+        358400.0,
+        5626880.0
+      ],
+      "task_id": "TMXRW23DNV4NU43NQGD5PKYH",
+      "task_state_at_submission": "READY"
+    }
+  ]
+}
