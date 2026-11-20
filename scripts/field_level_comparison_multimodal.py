@@ -1,7 +1,7 @@
-"""Compare two GeoAI 80-band U-Nets at EuroCrops field level on validation areas.
+"""Compare GeoAI U-Nets of different input channel counts at EuroCrops field level.
 
-Use the SAME staged validation imagery, geographic areas, masks, crop mapping,
-and EuroCrops polygons for both models. Test areas are not used.
+Use matched validation tile footprints and crop masks, but each model must use
+its own correctly normalized staged imagery. Test areas are not used.
 
 GeoAI semantic_segmentation is expected to return label indices 0..29.
 Training GeoTIFF labels and original area masks use crop IDs 1..30, ignore 255.
@@ -42,12 +42,15 @@ def compare_models_by_field(
     *, project_dir, crop_fields, crop_mapping, model_paths,
     staged_images_dir=None, tiles_dir=None, area_masks_dir=None,
     output_dir=None, min_field_pixels=10, num_classes=30,
-    run_inference=True, device=None,
+    run_inference=True, device=None, model_inputs=None,
 ):
     """Run tile inference (or use cached predictions), deduplicate spatial overlaps,
     rasterize EuroCrops field IDs, and compare original/rare-crop models.
 
     model_paths: dict label -> path to best_model.pth.
+    model_inputs: optional dict label -> {'num_channels': int,
+        'staged_images_dir': Path, 'encoder_name': str}.
+        Defaults are supplied for baseline, rare_crop, alpha_earth and combined_144band.
     crop_fields: original reduced_crops GeoDataFrame with hcat4_name column.
     crop_mapping: dict crop name -> ID (1..30), as used for creating masks.
     """
@@ -77,8 +80,24 @@ def compare_models_by_field(
     val_label_names = {p.name for p in (tiles_dir/'val/labels').glob('*.tif')}
     if set(val_tile_names) != val_label_names:
         raise ValueError('Validation image/label files do not match')
-    if any(not (staged_images_dir/name).is_file() for name in val_tile_names):
-        raise FileNotFoundError('Staged 0..255 images are missing; set staged_images_dir to an existing GeoAI input images folder')
+    # Distinct inputs are essential: the 64-/144-band models cannot use
+    # the original 80-band reflectance imagery.
+    defaults = {
+        'baseline': (80, project_dir / 'data/processed/geoai_training_input/unet_80band_monthly_weighted_250epochs/images'),
+        'rare_crop': (80, project_dir / 'data/processed/geoai_training_input/unet_80band_rare_crop_earlystop/images'),
+        'alpha_earth': (64, project_dir / 'data/processed/geoai_training_input/unet_alphaearth_64band/images'),
+        'combined_144band': (144, project_dir / 'data/processed/geoai_training_input/unet_combined_144band/images'),
+    }
+    model_inputs = model_inputs or {}
+    configs = {}
+    for model_name in models:
+        default_channels, default_dir = defaults.get(model_name, (80, staged_images_dir))
+        options = model_inputs.get(model_name, {})
+        configs[model_name] = {
+            'num_channels': int(options.get('num_channels', default_channels)),
+            'staged_images_dir': Path(options.get('staged_images_dir', default_dir)),
+            'encoder_name': options.get('encoder_name', 'resnet18'),
+        }
 
     by_area = defaultdict(list)
     for name in val_tile_names:
@@ -98,13 +117,29 @@ def compare_models_by_field(
             pred_dir.mkdir(parents=True, exist_ok=True)
             todo = [name for name in val_tile_names if not (pred_dir/name).is_file()]
             print(f'{model_name}: {len(todo)} tiles to predict; {len(val_tile_names)-len(todo)} cached')
+            config = configs[model_name]
+            if todo:
+                image_dir = config['staged_images_dir']
+                missing = [name for name in todo if not (image_dir/name).is_file()]
+                if missing:
+                    raise FileNotFoundError(
+                        f'{model_name}: {len(missing)} staged images missing in {image_dir}; '
+                        f'first missing: {missing[0]}'
+                    )
+                with rasterio.open(image_dir/todo[0]) as sample:
+                    if sample.count != config['num_channels']:
+                        raise ValueError(
+                            f"{model_name}: images have {sample.count} bands, "
+                            f"configured for {config['num_channels']}"
+                        )
+                print(f"  Using {config['num_channels']} bands from {image_dir}")
             for i, name in enumerate(todo, 1):
                 geoai.semantic_segmentation(
-                    input_path=str(staged_images_dir/name),
+                    input_path=str(config['staged_images_dir']/name),
                     output_path=str(pred_dir/name),
                     model_path=str(path),
-                    architecture='unet', encoder_name='resnet18',
-                    num_channels=80, num_classes=num_classes,
+                    architecture='unet', encoder_name=config['encoder_name'],
+                    num_channels=config['num_channels'], num_classes=num_classes,
                     window_size=128, overlap=0, batch_size=1,
                     device=device, quiet=True,
                 )
@@ -227,7 +262,7 @@ def compare_models_by_field(
     detail=pd.DataFrame(model_rows)
     if detail.empty:
         raise RuntimeError('No evaluable fields; check polygons, masks, and minimum pixels')
-    detail.to_csv(output_dir/'field_predictions_both_models.csv',index=False)
+    detail.to_csv(output_dir/'field_predictions_all_models.csv',index=False)
     per_class=[]
     summary=[]
     inv_map={v:k for k,v in crop_mapping.items()}
