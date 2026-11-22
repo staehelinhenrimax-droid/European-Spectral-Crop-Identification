@@ -111,6 +111,7 @@ def train_combined_unet(
     encoder_weights='imagenet',
     overwrite_model=False,
     plot_curves=True,
+    num_classes = 30
 ):
     """Train with correct separate band scaling and GeoAI geographic holdouts."""
     import scripts.geoai_training_rare_crop as base
@@ -186,7 +187,7 @@ def train_combined_unet(
             experiment_name=experiment_name,
             tiles_dir=tiles_dir,
             num_channels=144,
-            num_classes=30,
+            num_classes=num_classes,
             rare_crop_sampling=False,
             use_class_weights=use_class_weights,
             num_epochs=num_epochs,
